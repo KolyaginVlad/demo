@@ -84,12 +84,12 @@ public class Solution {
 
             for (int j = i; j <= right; j++) {
                 countCompare++;
+                countCompare++;
                 if(arr[j] > arr[maxIndex]) {
-                    countCompare++;
                     maxIndex = j;
                 }
+                countCompare++;
                 if(arr[j] < arr[minIndex]) {
-                    countCompare++;
                     minIndex = j;
                 }
             }
